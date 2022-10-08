@@ -1,5 +1,6 @@
 let input = document.querySelector("form input");
 let test = document.getElementById("test");
+let results = document.querySelector(".results")
 
 function insert(num) {
   input.value += num;
@@ -21,3 +22,10 @@ function equal() {
     input.value = "Error"
   }
 }
+
+results.addEventListener('click', (eo) => {
+  test.classList.toggle("display");
+})
+
+
+
