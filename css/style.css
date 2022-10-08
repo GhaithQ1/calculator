@@ -109,6 +109,9 @@ form .textview:focus {
     justify-content: center;
     gap: 5px;
   }
+  .dil , .equal{
+    height: 72px !important;
+  }
 }
 
 .test {
